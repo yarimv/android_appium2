@@ -30,6 +30,7 @@ class TestAppium(unittest.TestCase):
     def test_find_battery(self) -> None:
         el = self.driver.find_element(AppiumBy.XPATH,"//android.widget.TextView[@content-desc='갤러리']")
         el.click()
+        print("깃헙업로드를 위한 변경 줄")
 
 if __name__ == '__main__':
     unittest.main()
